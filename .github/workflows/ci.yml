@@ -10,17 +10,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
+       fail-fast: false
        matrix:
-         exist-version: [release]
-         java-version: [8]
-         node-version: ['14', '16']
-    # TODO: see #563 could still be usefull for gulp builds 
-    # services:
-    #   # Label used to access the service container
-    #   exist:
-    #     image: existdb/existdb:${{ matrix.exist-version}}
-    #     ports:
-    #       - 8080:8080
+         exist-version: [release, latest]
+         java-version: [8, 17]
+         node-version: ['14', '16', '18', '20']
+         exclude:
+          - exist-version: release
+            java-version: 17
+          - exist-version: latest
+            java-version: 8
 
     steps:
       - uses: actions/checkout@v3
