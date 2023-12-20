@@ -1,4 +1,4 @@
-describe('eXide', function() {
+describe.skip('eXide', function() {
   it('should load', function() {
     // Go to eXide
     cy.visit('/eXide/index.html')

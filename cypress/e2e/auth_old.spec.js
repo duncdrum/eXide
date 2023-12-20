@@ -1,7 +1,7 @@
 const indexPage = 'http://localhost:8080/exist/apps/eXide/index.html'
 const loginPage = 'http://localhost:8080/exist/apps/eXide/login.html'
 
-describe('with guest=yes (default)', function() {
+describe.skip('with guest=yes (default)', function() {
     before(function () {
         cy.setConf(true, true);
     })

@@ -1,4 +1,4 @@
-describe('Navbar', function () {
+describe.skip('Navbar', function () {
 
   it.skip("should display notification", () => {
     cy.visit('/eXide/index.html')

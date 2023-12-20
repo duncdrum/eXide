@@ -1,7 +1,7 @@
 let collectionName = "abc"
 
 context("DB Manager", () => {
-  describe('DB Manager operations', () => {
+  describe.skip('DB Manager operations', () => {
     beforeEach(() => {
       cy.session('mySession', () => {
         cy.visit(`/eXide/index.html`)
