@@ -1,0 +1,23 @@
+{
+  "theme": "tomorrow",
+  "fontSize": 14,
+  "font": "Default",
+  "showInvisibles": false,
+  "autoPair": true,
+  "showPrintMargin": true,
+  "showHScroll": false,
+  "indent": -1,
+  "indentSize": 4,
+  "indentOnOpen": true,
+  "indentOnDownload": true,
+  "indentOnDownloadPackage": false,
+  "expandXIncludesOnOpen": false,
+  "expandXIncludesOnDownload": false,
+  "expandXIncludesOnDownloadPackage": false,
+  "omitXMLDeclarationOnOpen": true,
+  "omitXMLDeclarationOnDownload": true,
+  "omitXMLDeclarationOnDownloadPackage": true,
+  "softWrap": -1,
+  "emmet": false,
+  "version": "3.5.1"
+}

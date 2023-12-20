@@ -13,7 +13,7 @@
 // cy.login()
 Cypress.Commands.add("login", (username, password) => {
     cy.session(['form', username, password], () => {
-        cy.visit('/eXide/login.html')
+        cy.visit('/login.html')
         cy.get('[name=user]').type(username)
         if (password.length) {
             cy.get('[name=password]').type(password)
@@ -28,7 +28,7 @@ Cypress.Commands.add("loginXHR", (user, password) => {
     cy.session(['xhr', user, password], () => {
         cy.request({
             method: 'POST',
-            url: '/eXide/login',
+            url: '/login',
             form: true,
             body: { user, password },
             headers: { 'Accept': 'application/json' }
@@ -37,7 +37,7 @@ Cypress.Commands.add("loginXHR", (user, password) => {
 })
 
 // cy.logout() -- does not work reliably
-Cypress.Commands.add("logout", () => cy.request('/eXide/index.html', {logout: true}))
+Cypress.Commands.add("logout", () => cy.request('/index.html', {logout: true}))
 
 const setBoolean = (value) => value ? 'yes' : 'no'
 const getConf = function (executeQuery, restrictAccess) {
@@ -53,7 +53,7 @@ Cypress.Commands.add("setConf", function (executeQuery, restrictAccess) {
     const confFilePath = "/apps/eXide/configuration.xml"
     cy.request({
         method: 'POST',
-        url: `/eXide/store/db${confFilePath}`,
+        url: `/store/db${confFilePath}`,
         headers: {
             'Content-Type': 'application/xml',
             'Content-length': body.length
