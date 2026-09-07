@@ -121,7 +121,8 @@ async function clean() {
         'resources/scripts/eXide.min.*',
 'resources/scripts/prettier-bundle.js',
         'index.html',
-        'expath-pkg.xml'
+        'expath-pkg.xml',
+        'repo.xml'
     ], { allowEmpty: true, silent: false });
 }
 
@@ -182,6 +183,7 @@ function replace(path, outPath, data) {
 
     replace('expath-pkg.xml.tmpl', 'expath-pkg.xml', { version });
     replace("index.html.tmpl", "index.html", { version });
+    replace('repo.xml.tmpl', 'repo.xml', { version });
 
     await bundle();    
 
