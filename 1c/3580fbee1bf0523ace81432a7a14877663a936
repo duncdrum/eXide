@@ -1,0 +1,33 @@
+repo.xml.tmpl
+  s_6cf68151d9a3d9::t_17c2bd7a0d71b0 1-50,52-61,63-95,97-144,146-154,156-205,207-222,224-359
+  s_6cf68151d9a3d9::t_6ad90be77f2309 51,62,96,145,155,206,223,360
+scripts/build.js
+  s_6cf68151d9a3d9::t_8fc6ed8f70d378 186
+  s_6cf68151d9a3d9::t_c13fa5fbaf2ae4 124-125
+.releaserc
+  s_6cf68151d9a3d9::t_351254df30965c 21,28
+package.json
+  s_6cf68151d9a3d9::t_c1b7e51062978a 55,57-58
+.gitignore
+  s_6cf68151d9a3d9::t_b291f796295070 12
+package-lock.json
+  s_6cf68151d9a3d9::t_1f8065105dc245 41,45-46,743-772,861-900,2689-2712,2774-2783,3284-3293,3415-3427,4220-4222,4226-4230,4233,4236,4239-4242,4246-4249,4252-4255,4258-4259,4277-4279,4283-4284,4290,4293-4296,4300,4303,10454-10470
+scripts/update-repo-changelog.mjs
+  s_6cf68151d9a3d9::t_60ef05d2d3cfc9 1-215
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "1c3580fbee1bf0523ace81432a7a14877663a936",
+  "prompts": {},
+  "sessions": {
+    "s_6cf68151d9a3d9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3308c132-ccce-411c-89bd-2523ff2e77ee",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
