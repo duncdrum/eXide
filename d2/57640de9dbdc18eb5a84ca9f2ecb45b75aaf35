@@ -1,0 +1,19 @@
+scripts/update-repo-changelog.mjs
+  s_6cf68151d9a3d9::t_5f62772473f3eb 6,9-14,16-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "d257640de9dbdc18eb5a84ca9f2ecb45b75aaf35",
+  "prompts": {},
+  "sessions": {
+    "s_6cf68151d9a3d9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3308c132-ccce-411c-89bd-2523ff2e77ee",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
