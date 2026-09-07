@@ -1,0 +1,19 @@
+README.md
+  s_6cf68151d9a3d9::t_8592e90d93ea01 107-112,115,117-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "6c5051b95e10307b031982c83d8ab6165afd4115",
+  "prompts": {},
+  "sessions": {
+    "s_6cf68151d9a3d9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3308c132-ccce-411c-89bd-2523ff2e77ee",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
