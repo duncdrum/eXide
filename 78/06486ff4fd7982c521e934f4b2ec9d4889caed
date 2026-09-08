@@ -1,0 +1,28 @@
+modules/api/editor.xqm
+  s_074ff1b1e8cce1::t_c16a26e85c5e75 113-140,144-148,153-157,162
+  s_074ff1b1e8cce1::t_6908546c52391b 112
+resources/schema/collection.xconf.xsd
+  s_074ff1b1e8cce1::t_9703cf82060da0 2-6
+resources/schema/catalog.xml
+  s_074ff1b1e8cce1::t_4a82330abeb31d 2-10,13
+cypress/e2e/xml_validate_spec.cy.js
+  s_074ff1b1e8cce1::t_3eb7398a4f16ff 1-42
+modules/api.json
+  s_074ff1b1e8cce1::t_841346069c683a 784
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "7806486ff4fd7982c521e934f4b2ec9d4889caed",
+  "prompts": {},
+  "sessions": {
+    "s_074ff1b1e8cce1": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ab7c9115-ebb2-496c-ba52-2a75ea0986b6",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
