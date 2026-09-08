@@ -1,0 +1,25 @@
+cypress/e2e/xml_validate_spec.cy.js
+  s_074ff1b1e8cce1::t_49f3654a4dd3e0 25,40
+resources/schema/catalog.xml
+  s_074ff1b1e8cce1::t_21babed8069d9b 3,5-9
+modules/api.json
+  s_074ff1b1e8cce1::t_bbab0ccb909d8e 784
+modules/api/editor.xqm
+  s_074ff1b1e8cce1::t_50bbba713f60b8 112-120,122-123,125,147-160,165-174,181-215,221
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "6296f842f757fd8c91f692e757b09fd9c6354693",
+  "prompts": {},
+  "sessions": {
+    "s_074ff1b1e8cce1": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ab7c9115-ebb2-496c-ba52-2a75ea0986b6",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
