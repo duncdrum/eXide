@@ -114,7 +114,6 @@
     <main class="login-box">
         <h1 class="header">Sign in</h1>
         <form id="login-form" action="api/auth/session" method="post">
-            <input type="hidden" name="duration" value="P7D"/>
             <div class="form-group">
                 <label for="user">Username</label>
                 <input id="user" name="user" class="form-control"
@@ -125,10 +124,14 @@
                 <input id="password" name="password" class="form-control"
                     type="password" placeholder="Password..." tab-index="1"/>
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox" name="remember-me" value="true" id="remember-me" tab-index="2"/>
+                <label for="remember-me">Remember me for 2 weeks</label>
+            </div>
             <p id="login-error" class="login-error" role="alert"></p>
             <div class="form-group">
                 <input type="submit" class="submit-button" value="Login"
-                    tab-index="2"/>
+                    tab-index="3"/>
             </div>
         </form>
     </main>

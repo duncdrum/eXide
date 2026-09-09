@@ -30,6 +30,35 @@ declare function auth:is-allowed($user as xs:string?) as xs:boolean {
 };
 
 (:~
+ : Session lifetime for a login, from the "remember me" flag on the form.
+ :
+ : Roaster reads `lifetime` out of the options map it is handed
+ : (rauth:login-user), defaulting to P7D when we set nothing. A login without
+ : "remember me" should not outlive the working day, so we set both ends
+ : explicitly rather than leaving the unremembered case on Roaster's week.
+ :
+ : The flag arrives as a boolean over JSON and as the string "true" from the
+ : form-encoded body, so both are accepted. The duration is decided here rather
+ : than sent by the client: the previous `duration` parameter let the caller name
+ : any lifetime it liked, and was never read at all (#814 review).
+ :)
+declare %private function auth:session-options($request as map(*)) as map(*) {
+    (: Roaster casts the flag to xs:boolean when the body matches the schema, but
+       a form-encoded body can also arrive as the string "true"/"on". string() on
+       either gives a value both cases can be compared as — comparing the boolean
+       against a string directly is a type error (err:XPTY0004). :)
+    let $remember := string(($request?body?remember-me, false())[1])
+    return
+        map {
+            "lifetime":
+                if ($remember = ("true", "1", "on")) then
+                    xs:dayTimeDuration("P14D")
+                else
+                    xs:dayTimeDuration("PT8H")
+        }
+};
+
+(:~
  : POST /api/auth/session — Login.
  :
  : Bypasses authorization (`security: []` in the spec) — the caller is not yet
@@ -44,7 +73,7 @@ declare function auth:login($request as map(*)) {
         rauth:login-user(
             string($request?body?user),
             string($request?body?password),
-            rauth:add-cookie-name($request, map {})
+            rauth:add-cookie-name($request, auth:session-options($request))
         )
     return
         (: empty -> bad credentials; not is-allowed -> a valid account the config

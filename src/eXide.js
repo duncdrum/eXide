@@ -1873,9 +1873,11 @@ eXide.app = (function(util) {
                     var formData = new URLSearchParams();
                     formData.append("user", user);
                     formData.append("password", password);
-                    var durationEl = document.querySelector("#login-form input[name=\"duration\"]");
-                    if (durationEl && durationEl.checked) {
-                        formData.append("duration", "P14D");
+                    // The server decides how long a remembered session lasts; the
+                    // client only says whether the box was ticked.
+                    var rememberEl = document.querySelector("#login-form input[name=\"remember-me\"]");
+                    if (rememberEl && rememberEl.checked) {
+                        formData.append("remember-me", "true");
                     }
 					fetch("api/auth/session", {
 					    method: "POST",
