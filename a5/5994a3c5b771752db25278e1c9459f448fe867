@@ -1,0 +1,19 @@
+modules/api/view.xqm
+  s_ce96c469feaea9::t_a15eb8bec75469 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "a55994a3c5b771752db25278e1c9459f448fe867",
+  "prompts": {},
+  "sessions": {
+    "s_ce96c469feaea9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f283f79a-e275-4d1c-9c32-f3427473858b",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
