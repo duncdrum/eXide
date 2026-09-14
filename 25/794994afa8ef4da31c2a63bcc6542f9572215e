@@ -1,0 +1,19 @@
+.github/workflows/release.yml
+  s_9d406b2826eba5::t_403a7a6dc6f98c 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "25794994afa8ef4da31c2a63bcc6542f9572215e",
+  "prompts": {},
+  "sessions": {
+    "s_9d406b2826eba5": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e1c4c853-f686-4c58-8a3f-4d214ea2a6fa",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
