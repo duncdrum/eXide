@@ -1,0 +1,25 @@
+package.json
+  s_6cf68151d9a3d9::t_2ab120013adafb 52
+.github/workflows/release.yml
+  s_6cf68151d9a3d9::t_fadd99ee517c7f 5-6,24-31,35,43-47
+.releaserc
+  s_6cf68151d9a3d9::t_8b6d5db99ee9da 3,18-31
+package-lock.json
+  s_6cf68151d9a3d9::t_8dbdac070e752e 38,2020-2022,2026-2027,2030-2031,2033,2036,2039,2042-2045,2048-2051,2053-2072,2076-2078,2082-2093,2096,2103-2105,2108-2111,2113,2120-2122,2126-2208,9018-9020,9024-9027,11764-11779
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "8d496f2d7d66068405b166384f9072aa375e5dd9",
+  "prompts": {},
+  "sessions": {
+    "s_6cf68151d9a3d9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3308c132-ccce-411c-89bd-2523ff2e77ee",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
