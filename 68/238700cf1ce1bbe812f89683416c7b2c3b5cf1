@@ -1,0 +1,20 @@
+modules/api/view.xqm
+  s_ce96c469feaea9::t_f4b2ee66040216 6-7
+  s_ce96c469feaea9::t_1d08bf8fba0284 24-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "68238700cf1ce1bbe812f89683416c7b2c3b5cf1",
+  "prompts": {},
+  "sessions": {
+    "s_ce96c469feaea9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f283f79a-e275-4d1c-9c32-f3427473858b",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}

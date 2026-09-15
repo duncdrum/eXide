@@ -1,0 +1,19 @@
+modules/api/view.xqm
+  s_af803de938bc0f::t_de6133f99b7b43 30-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8fe78c56a45f32af7b0ae786c8da6c3f0a6279df",
+  "prompts": {},
+  "sessions": {
+    "s_af803de938bc0f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b98ec8ba-2c50-4014-9394-00e35029b595",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
