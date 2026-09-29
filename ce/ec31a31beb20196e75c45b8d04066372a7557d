@@ -1,0 +1,26 @@
+modules/api/ws-monitor.xqm
+  s_00cd12dd27abe1::t_9285a09ce9707f 130-137
+  s_00cd12dd27abe1::t_35e1a46e75b801 138-144
+  s_00cd12dd27abe1::t_5b47806aa7472d 147-154,156-166,168
+modules/api/admin.xqm
+  s_00cd12dd27abe1::t_09f22805ae43a8 17,23,28,30,37-38,48-54
+  s_00cd12dd27abe1::t_f92bf0f4f133a0 29,31-36,39-47
+  s_00cd12dd27abe1::t_56f09f9bdb09f8 55-70
+  s_00cd12dd27abe1::t_eca8dc54fefaa4 71-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ceec31a31beb20196e75c45b8d04066372a7557d",
+  "prompts": {},
+  "sessions": {
+    "s_00cd12dd27abe1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e7b940a-4d52-4273-8bcd-2276a59c93ac",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
