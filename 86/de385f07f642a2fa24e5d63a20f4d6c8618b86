@@ -1,0 +1,28 @@
+resources/schema/README.md
+  s_b770f06b5393eb::t_1f057dee9b649e 9-11
+resources/schema/controller-config.xsd
+  s_b770f06b5393eb::t_d2c2e619874806 7,22-26
+modules/api/editor.xqm
+  s_b770f06b5393eb::t_8f716c26257152 359-360
+  s_b770f06b5393eb::t_4d2d25a74ef5d8 231-238
+resources/schema/conf.xsd
+  s_b770f06b5393eb::t_d2c2e619874806 11,1060-1064
+resources/schema/catalog.xml
+  s_b770f06b5393eb::t_35e50706bf9fef 7-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "86de385f07f642a2fa24e5d63a20f4d6c8618b86",
+  "prompts": {},
+  "sessions": {
+    "s_b770f06b5393eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8b008053-a061-49a4-8188-b8ee249ecccf",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
