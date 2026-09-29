@@ -1,0 +1,19 @@
+modules/api/admin.xqm
+  s_00cd12dd27abe1::t_56f09f9bdb09f8 19-38,40-42,44-45,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a3bed8ed68e03b495103e66872e04072d668d57c",
+  "prompts": {},
+  "sessions": {
+    "s_00cd12dd27abe1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e7b940a-4d52-4273-8bcd-2276a59c93ac",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
