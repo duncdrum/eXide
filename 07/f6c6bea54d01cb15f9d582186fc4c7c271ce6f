@@ -1,0 +1,21 @@
+src/monitor.js
+  s_00cd12dd27abe1::t_84293a14ad0e2d 290-300,307,309,313,318,322-330
+  s_00cd12dd27abe1::t_442f4ff18dc604 144
+  s_00cd12dd27abe1::t_421b4558f28bd4 331-332
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "07f6c6bea54d01cb15f9d582186fc4c7c271ce6f",
+  "prompts": {},
+  "sessions": {
+    "s_00cd12dd27abe1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e7b940a-4d52-4273-8bcd-2276a59c93ac",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
