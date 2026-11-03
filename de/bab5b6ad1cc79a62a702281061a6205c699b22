@@ -1,0 +1,55 @@
+modules/api/editor.xqm
+  s_074ff1b1e8cce1::t_c16a26e85c5e75 122,124-144,162,217,230,243
+  s_074ff1b1e8cce1::t_50bbba713f60b8 113-118,120-121,123,145-158,160,163-207,227-228,232,236,240,246,251,287,300,310,313,322,331,349,368-369
+  s_074ff1b1e8cce1::t_6908546c52391b 119
+  s_074ff1b1e8cce1::t_682feea37c7751 159,161,208-216,218-226,229,231,233-235,237-239,241-242,244-245,247-250,252-286,288-299,301-309,311-312,314-321,323-330,332-345,350-357,364-367,370-384,388-389,392
+modules/api.json
+  s_074ff1b1e8cce1::t_bbab0ccb909d8e 835
+resources/schema/catalog.xml
+  s_074ff1b1e8cce1::t_4a82330abeb31d 2,4,10-13
+  s_074ff1b1e8cce1::t_21babed8069d9b 3,5-9
+  s_074ff1b1e8cce1::t_f55d1a9f8462c5 16-26
+cypress/e2e/xml_validate_spec.cy.js
+  s_074ff1b1e8cce1::t_49f3654a4dd3e0 25,40
+  s_074ff1b1e8cce1::t_3eb7398a4f16ff 1-24,26-39,41-43
+  s_074ff1b1e8cce1::t_5e81e0b2451bd6 44-46
+  s_074ff1b1e8cce1::t_abdf061263e244 47-110
+resources/schema/collection.xconf.xsd
+  s_074ff1b1e8cce1::t_8b397ac86c2135 9-11,17,33,62,68,70,81,88,96,105,149,151,232,273,325,327,330-332,344,494,515,624
+resources/schema/conf.xsd
+  s_074ff1b1e8cce1::t_cd58e8ee441b3f 1-1509
+resources/schema/controller-config.xsd
+  s_074ff1b1e8cce1::t_0c6c30bd32913e 1-31
+resources/schema/descriptor.xsd
+  s_074ff1b1e8cce1::t_3401783a9ad6ab 1-43
+resources/schema/expath-pkg.xsd
+  s_074ff1b1e8cce1::t_94ec10714c2290 1-231
+resources/schema/mime-types.xsd
+  s_074ff1b1e8cce1::t_68b30987436d04 1-62
+resources/schema/schema-version-type.xsd
+  s_074ff1b1e8cce1::t_74e08679c99737 1-22
+resources/schema/security-manager.xsd
+  s_074ff1b1e8cce1::t_8d6e9d99523c97 1-67
+resources/schema/server.xsd
+  s_074ff1b1e8cce1::t_e0b417c096ba7f 1-130
+resources/schema/users.xsd
+  s_074ff1b1e8cce1::t_3da1c763d58f8a 1-60
+resources/schema/README.md
+  s_074ff1b1e8cce1::t_cea7cc8c727d54 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "debab5b6ad1cc79a62a702281061a6205c699b22",
+  "prompts": {},
+  "sessions": {
+    "s_074ff1b1e8cce1": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ab7c9115-ebb2-496c-ba52-2a75ea0986b6",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}

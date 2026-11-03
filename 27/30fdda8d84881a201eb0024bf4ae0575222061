@@ -1,0 +1,24 @@
+modules/api/editor.xqm
+  s_b770f06b5393eb::t_0f8bceffbddcd1 278
+  s_b770f06b5393eb::t_0a0dbe457e76ea 379-382
+  s_b770f06b5393eb::t_4cc82aaf29fc05 144-157
+  s_b770f06b5393eb::t_4058dbf2288a9f 324-329
+  s_b770f06b5393eb::t_e938aebd9fbc17 299
+  s_b770f06b5393eb::t_1da3835b4c4c93 143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2730fdda8d84881a201eb0024bf4ae0575222061",
+  "prompts": {},
+  "sessions": {
+    "s_b770f06b5393eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8b008053-a061-49a4-8188-b8ee249ecccf",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}

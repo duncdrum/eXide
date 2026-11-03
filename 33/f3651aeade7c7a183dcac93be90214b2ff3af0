@@ -1,0 +1,23 @@
+modules/api/editor.xqm
+  s_16608332482e19::t_efcbac0f882ed0 132-157,315-316,343-344
+src/xml-helper.js
+  s_16608332482e19::t_efcbac0f882ed0 321
+cypress/e2e/xml_validate_spec.cy.js
+  s_16608332482e19::t_efcbac0f882ed0 110-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "33f3651aeade7c7a183dcac93be90214b2ff3af0",
+  "prompts": {},
+  "sessions": {
+    "s_16608332482e19": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "22d85e69-6117-4797-a6b8-028b1bdc075d",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
