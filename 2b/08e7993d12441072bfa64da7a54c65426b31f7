@@ -1,0 +1,39 @@
+modules/api/admin.xqm
+  s_4ff9cd464ca3bf::t_3c758d81a68631 44-48
+modules/api/ws-monitor.xqm
+  s_4ff9cd464ca3bf::t_fc22375f8d1656 141-145
+resources/css/eXide.css
+  s_4ff9cd464ca3bf::t_6d204b11638d52 342,4921-4924
+  s_4ff9cd464ca3bf::t_c325c0e8651cbf 4917-4920
+  s_4ff9cd464ca3bf::t_6b267c967748f2 343-345
+  s_4ff9cd464ca3bf::t_3207bed4e61d75 328-333,336-341
+index.html.tmpl
+  s_4ff9cd464ca3bf::t_e722baf9335948 538
+src/monitor.js
+  s_4ff9cd464ca3bf::t_f44c3c99ddb377 207
+  s_4ff9cd464ca3bf::t_4b4df7dd098b70 294-298
+  s_4ff9cd464ca3bf::t_8def8d2e8a8242 459-461,472-474,476-484
+  s_4ff9cd464ca3bf::t_fb22f142e896c6 362-363
+  s_4ff9cd464ca3bf::t_d947d152a58bfe 463,466,468-471,475
+cypress/e2e/monitor_banner_spec.cy.js
+  s_4ff9cd464ca3bf::t_4399dada302b5c 18
+  s_4ff9cd464ca3bf::t_708c5def40b039 15-17
+  s_4ff9cd464ca3bf::t_2ae6cb7ebed843 19-21
+  s_4ff9cd464ca3bf::t_fecad5057dd035 1-14,22-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2b08e7993d12441072bfa64da7a54c65426b31f7",
+  "prompts": {},
+  "sessions": {
+    "s_4ff9cd464ca3bf": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "34c04a6a-2273-4020-81a8-840ab0e0db39",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
