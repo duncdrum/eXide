@@ -1,0 +1,19 @@
+cypress/e2e/xml_wellformed_spec.cy.js
+  s_4ff9cd464ca3bf::t_20df46001abde6 52,58-59,61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2e21f304a3f3ba0fdbc396324c6efd11cd67dcc6",
+  "prompts": {},
+  "sessions": {
+    "s_4ff9cd464ca3bf": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "34c04a6a-2273-4020-81a8-840ab0e0db39",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
