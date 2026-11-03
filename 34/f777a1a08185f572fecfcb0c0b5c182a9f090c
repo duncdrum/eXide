@@ -1,0 +1,39 @@
+index.html.tmpl
+  s_4ff9cd464ca3bf::t_5271e59f2e96ce 403
+  s_4ff9cd464ca3bf::t_33f24de8f48dc7 404-407
+src/editor.js
+  s_4ff9cd464ca3bf::t_ecd69ad4577d83 474
+  s_4ff9cd464ca3bf::t_967524afce0869 473
+  s_4ff9cd464ca3bf::t_9a96a116f11dc1 1330-1332,1339-1341
+  s_4ff9cd464ca3bf::t_e9ccb903ae27fe 1326-1327
+cypress/e2e/xml_validation_status_spec.cy.js
+  s_4ff9cd464ca3bf::t_9b80b581ed05f8 8,29,34,39-45,50-61
+  s_4ff9cd464ca3bf::t_d48cdf87116295 35-38,46-49
+  s_4ff9cd464ca3bf::t_21d2c5a8aa3060 5-7
+  s_4ff9cd464ca3bf::t_3cc3676ef72005 9-11,26-28
+  s_4ff9cd464ca3bf::t_3881519fea2500 30-33
+  s_4ff9cd464ca3bf::t_331ee6e8b51e31 62
+  s_4ff9cd464ca3bf::t_9d326d4f85eedf 1-4,12-25
+resources/css/eXide.css
+  s_4ff9cd464ca3bf::t_a0a24ef7c26e78 1115-1120,1122,1128,1130-1137
+  s_4ff9cd464ca3bf::t_6202986710857c 1110-1113
+  s_4ff9cd464ca3bf::t_a94ad8ce2aba37 3876-3879
+cypress/e2e/xml_wellformed_spec.cy.js
+  s_4ff9cd464ca3bf::t_43ba3d465a0e41 66-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "34f777a1a08185f572fecfcb0c0b5c182a9f090c",
+  "prompts": {},
+  "sessions": {
+    "s_4ff9cd464ca3bf": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "34c04a6a-2273-4020-81a8-840ab0e0db39",
+        "model": "default"
+      },
+      "human_author": "duncdrum <d.paterson@me.com>"
+    }
+  }
+}
